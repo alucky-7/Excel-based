@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+td:focus {
+    outline: 2px solid blue;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
